@@ -23,6 +23,10 @@ li:first-child {
     color: red;
 }
 
+li:nth-child(3) {
+    color: rgb(95, 200, 200);
+}
+
 li:last-child {
     color: blue;
 }
