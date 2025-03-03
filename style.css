@@ -16,3 +16,13 @@ h2:active {
     background-color: #334;
     color: #dda;
 }
+
+
+/* seleccionar solo el primero */
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: blue;
+}
