@@ -23,7 +23,8 @@ li:first-child {
     color: red;
 }
 
-li:nth-child(3) {
+/*un elemento si un elemento no */
+li:nth-child(2n) {
     color: rgb(95, 200, 200);
 }
 
