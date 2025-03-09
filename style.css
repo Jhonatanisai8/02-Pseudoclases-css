@@ -17,7 +17,7 @@ h2:active {
     color: #dda;
 }
 
-ul{
+ul {
     background-color: #999;
     padding: 5px;
 }
@@ -39,23 +39,45 @@ li:last-child {
 
 /* seleccionando los li dentro de .lista
 pero que no tengan la clase excluir */
-.lista li:not(.excluir){
+.lista li:not(.excluir) {
     color: red;
 }
-div{
+
+div {
     border: 2px solid black;
 }
+
 /* oculta los elementos vacios */
-div:empty{
+div:empty {
     background-color: #333;
     padding: 30px;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     margin: 50px;
 }
+
 /* si esta chekeado tiene margen de 10px */
-input[type="checkbox"]:checked{
+input[type="checkbox"]:checked {
     margin: 10px;
 }
 
+/* seleccionando enlaces no visitados */
+a:link {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+/* seleccionando enlaces visitados */
+a:visited {
+    color: #48e;
+    font-weight: 100;
+}
+
+/* cuando un input es valido o no */
+input:invalid {
+    color: red;
+}
+input:valid {
+    color: black;
+}
