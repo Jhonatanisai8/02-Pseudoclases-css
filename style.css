@@ -17,6 +17,10 @@ h2:active {
     color: #dda;
 }
 
+ul{
+    background-color: #999;
+    padding: 5px;
+}
 
 /* seleccionar solo el primero */
 li:first-child {
@@ -26,6 +30,7 @@ li:first-child {
 /*un elemento si un elemento no */
 li:nth-child(2n) {
     color: rgb(95, 200, 200);
+    background-color: #ddd;
 }
 
 li:last-child {
