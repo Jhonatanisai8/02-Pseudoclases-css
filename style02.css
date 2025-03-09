@@ -1,0 +1,11 @@
+section .elemento1,
+section .elemento2,
+section .elemento3{
+    background-color: #433;
+    color: #fff;
+}
+
+section :is(.elemento1, .elemento2, .elemento3){
+    background-color: #ff9;
+    color: #094;
+}
