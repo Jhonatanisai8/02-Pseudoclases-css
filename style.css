@@ -36,3 +36,9 @@ li:nth-child(2n) {
 li:last-child {
     color: blue;
 }
+
+/* seleccionando los li dentro de .lista
+pero que no tengan la clase excluir */
+.lista li:not(.excluir){
+    color: red;
+}
